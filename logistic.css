@@ -1,0 +1,148 @@
+body .cargo {
+    background-image: url(./images/Logistics-Market.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+
+.ul-6li {
+    background-color: white;
+    width: 100%;
+    background-size: cover;
+}
+
+.ul-6li .search {
+ border-radius: 0.4rem;
+ outline: none;
+}
+
+.ul-6li .olti-li {
+    padding: 1rem;
+}
+
+.olti-li li {
+    margin-right: 1rem;
+}
+
+.fraza {
+    width: 30%;
+}
+
+.fraza a {
+    color: rgb(49, 14, 204);
+}
+
+.know-more {
+    padding: .5rem;
+    background-color: yellowgreen;
+    width: 30%;
+}
+
+.know-more a {
+    text-decoration: none;
+    color: white;
+}
+
+.absolute {
+    position: absolute;
+    left: 10rem;
+    top: 10rem;
+}
+
+.what .what-we-do {
+    color: blue;
+}
+
+.div {
+    width: 100%;
+    height: 50vh;
+}
+
+.two-div {
+    width: 65%;
+    display: flex;
+    margin-left: 9rem;
+}
+
+.ul-6li .fa-bars {
+    display: none;
+}
+
+
+* {
+    /* border: 1px solid red; */
+    /* margin: 0px; */
+    /* padding: 0px; */
+
+}
+
+@media (max-width: 576px) {
+    .ul-6li .dis-none {
+        display: none;
+    }
+    .ul-6li .fa-bars {
+        display: inline;
+        color: mediumblue;
+    }
+    .absolute {
+        width: 100%;
+        position: absolute; 
+        left: 0rem;
+        background-color: blue;
+        bottom: 0rem;
+    }
+
+    .fraza a
+     {
+        color: white;
+    }
+
+    .fraza {
+        width: 50%;
+        margin-left: 2rem;
+    }
+
+    .know-more {
+       margin-left: 2rem;
+       padding: 0rem;
+    }
+
+}
+
+.retail-banks {
+    background-image: url(/images/AIK-Banka-filijala-Grawe-karticarstvo-brendirano.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20%;
+    position: relative;
+    height: 25vh;
+}
+ 
+.schools {
+    background-image: url(/images/scale_1200.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20%;
+    position: relative;
+    height: 25vh;
+
+}
+
+.residential-areas {
+    background-image: url(/images/residential\ areas);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20%;
+    position: relative;
+    height: 25vh;
+}
+
+.strong {
+    color: blue;
+}
