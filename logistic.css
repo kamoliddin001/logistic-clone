@@ -206,7 +206,7 @@ body {
 .div-footer {
     position: relative;
     background-color: #002F86;
-    top: 2rem;
+    top: 0rem;
 }
 
 .div-footer a {
@@ -289,7 +289,6 @@ body .logistic-services {
     position: relative;
 }
 
-
 .fin-log-div {
     width: 100%;
 }
@@ -300,13 +299,11 @@ body .logistic-services {
 
 .border-fin {
     margin-left: 2rem;
-    height: 150vh;
-    border: 1px solid red;
+    height: 120vh;
 }
 
 .four-div {
     position: relative;
-    border: 1px solid red;
 }
 
 .zhong {
@@ -314,7 +311,6 @@ body .logistic-services {
     top: 1.7rem;
     transform: rotate(-12deg);
     left: 1.7rem;
-    /* z-index: 1; */
     width: 50%;
     border: 1px solid rgb(236, 232, 232);
 }
@@ -341,12 +337,160 @@ body .logistic-services {
 }
 
 .hsbc {
-    /* position: absolute; */
     width: 60%;
     margin-top: 18rem;
     z-index: 0;
+}
 
-    
+.for-all .div-shad-ow {
+    background-color: white;
+    width: 17%;
+    position: absolute;
+    left: 31.6rem;
+    border: 2px solid  rgb(166, 166, 196);
+    top: 2.3rem;
+    height: 7vh;
+}
+
+.retail-but-ton {
+    background-color: #012D86;
+    width: 18%;
+    position: absolute;
+    left: 30rem;
+    font-weight: 700;
+    z-index: 1;
+    top: 1.5rem;
+}
+
+.border-finance {
+    margin-left: 2rem;
+    height: 80vh;
+    margin-top: 0px;
+}
+
+.contract-logist {
+    background-color: #012D86;
+    width: 15%;
+    position: absolute;
+    left: 4rem;
+    font-weight: 700;
+    z-index: 1;
+    top: 0.5rem;
+}
+
+.finance .div-shadow {
+    background-color: white;
+    width: 14%;
+    position: absolute;
+    left: 3.3rem;
+    border: 2px solid  rgb(166, 166, 196);
+    top: 1.2rem;
+    height: 7vh;
+}
+
+.finance {
+    position: relative;
+}
+
+.rebus {
+    height: 50vh;
+}
+
+body .logistic-services-clients {
+    background: linear-gradient(rgba(97, 97, 124, 0.8), rgba(79, 79, 223, 0.6)), url(/images/client.jpg); 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    margin-top: 5rem;
+    background-size: cover;
     
 }
 
+.bowne,
+.equity,
+.parkn-shop
+ {
+    width: 20%;
+}
+
+.great-food,
+.SNP,
+.lam-soon,
+.unilever,
+.gp-batteries,
+.fourseas,
+.rr-don,
+.loreal
+ {
+    width: 25%;
+}
+
+.background {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 1px 3px rgb(229, 226, 226) ;
+}
+
+.last-12div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #F2F2F2;
+    grid-gap: 2rem;
+    padding: 3rem;
+}
+
+.back-view {
+    width: 100%;
+}
+
+.green {
+    margin-top: 3rem;
+    border-left: 22px solid #79BC1E;
+    border-top: 25px solid white;
+    transform: rotate(69deg);
+    width: 1rem;
+}
+
+.contact-logist {
+    background-color: #012D86;
+    width: 25%;
+    font-weight: 700;
+}
+
+.border-green {
+    margin-top: 1.5rem;
+    border-left: 30px solid #dde4d3;
+    border-top: 27px solid white;
+    transform: rotate(145deg);
+    width: 5rem;
+    margin-left: 30rem;
+}
+
+.border-gree {
+    margin-top: 2rem;
+    border-left: 55px solid #79BC1E;
+    border-top: 52px solid white;
+    transform: rotate(72deg);
+    width: 5rem;
+    margin-left: 20rem;
+}
+
+.border-gr {
+    /* margin-bottom: 10rem; */
+    border-left: 30px solid #79BC1E;
+    border-top: 27px solid rgb(252, 250, 250);
+    transform: rotate(118deg);
+    width: 1rem;
+    left: 7rem;
+    position: absolute;
+    top: 20rem;
+}
+
+.col-5 {
+    position: relative;
+}
+
+
+* {
+   /* border: 2px solid green; */
+}
