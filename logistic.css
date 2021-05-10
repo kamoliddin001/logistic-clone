@@ -1,5 +1,5 @@
 body .cargo {
-    background-image: url(/images/cargo.jpg);
+    background-image: url(/images/XXL.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -75,14 +75,6 @@ body {
     display: none;
 }
 
-
-* {
-    /* border: 1px solid red; */
-    /* margin: 0px; */
-    /* padding: 0px; */
-
-}
-
 @media (max-width: 576px) {
     .ul-6li .dis-none {
         display: none;
@@ -95,8 +87,8 @@ body {
         width: 100%;
         position: absolute; 
         left: 0rem;
-        background-color: blue;
-        bottom: 0rem;
+        background-color: blue; 
+        top: 12rem;
     }
 
     .fraza a
@@ -105,15 +97,68 @@ body {
     }
 
     .fraza {
-        width: 50%;
+        width: 55%;
         margin-left: 2rem;
     }
 
     .know-more {
        margin-left: 2rem;
-       padding: 0rem;
+       padding: 0.5rem;
+       margin-bottom: 0.8rem;
+       width: 50%;
     }
 
+    .three-div {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .two-div {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .first-div3tali {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .first-div3tali .retail-banks {
+        margin: 0rem;
+        padding: 0rem;
+        width: 40%;
+        /* background-position: center; */
+        background-size: cover;
+        background-repeat: no-repeat;
+         /* position: relative; */
+         order: 1;
+    }
+
+    .first-div3tali .schools {
+        margin: 0rem;
+        padding: 0rem;
+        width: 40%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+         position: relative;
+         order: 3;
+    }
+
+    .first-div3tali .residential-areas {
+        margin: 0rem;
+        padding: 0rem;
+        width: 40%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        order: 2;
+    }
+
+
+    
 }
 
 .retail-banks {
@@ -196,8 +241,8 @@ body {
  background-position: center;
  background-size: cover;
  background-repeat: no-repeat;
- width: 25%;
- height: 30vh;
+ width: 23%;
+ height: 28vh;
  left: 0rem;
  position: absolute;
  bottom: 33rem;
@@ -459,7 +504,7 @@ body .logistic-services-clients {
 
 .border-green {
     margin-top: 1.5rem;
-    border-left: 30px solid #dde4d3;
+    border-left: 30px solid #00a727;
     border-top: 27px solid white;
     transform: rotate(145deg);
     width: 5rem;
